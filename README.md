@@ -1,1 +1,1 @@
-# Auto-osition-buttons
+# Auto-position-buttons

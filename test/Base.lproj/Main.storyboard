@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woX-0P-6yB">
+                                <rect key="frame" x="0.0" y="466" width="768" height="92"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIf-Ly-0M9">
+                                        <rect key="frame" x="8" y="54" width="752" height="30"/>
+                                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="6" maxX="10" maxY="6"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOL-A3-vah">
+                                        <rect key="frame" x="8" y="8" width="752" height="30"/>
+                                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="6" maxX="10" maxY="6"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="oIf-Ly-0M9" secondAttribute="bottom" constant="8" id="6ZC-sb-Rag"/>
+                                    <constraint firstItem="oIf-Ly-0M9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="woX-0P-6yB" secondAttribute="leading" priority="999" constant="8" id="G5z-NU-jep"/>
+                                    <constraint firstItem="oIf-Ly-0M9" firstAttribute="centerX" secondItem="woX-0P-6yB" secondAttribute="centerX" priority="999" id="PFD-f5-bRN"/>
+                                    <constraint firstItem="oIf-Ly-0M9" firstAttribute="top" secondItem="UOL-A3-vah" secondAttribute="bottom" priority="999" constant="16" id="QLg-fF-6tg"/>
+                                    <constraint firstItem="oIf-Ly-0M9" firstAttribute="centerY" secondItem="UOL-A3-vah" secondAttribute="centerY" priority="1" id="bd3-bS-q4T"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UOL-A3-vah" secondAttribute="trailing" constant="8" id="eoW-m9-yQF"/>
+                                    <constraint firstItem="UOL-A3-vah" firstAttribute="centerX" secondItem="woX-0P-6yB" secondAttribute="centerX" priority="999" id="itX-ea-i5b"/>
+                                    <constraint firstItem="UOL-A3-vah" firstAttribute="top" secondItem="woX-0P-6yB" secondAttribute="top" constant="8" id="pce-ii-7g9"/>
+                                    <constraint firstAttribute="trailing" secondItem="oIf-Ly-0M9" secondAttribute="trailing" priority="999" constant="8" id="z3j-Ow-13k"/>
+                                    <constraint firstItem="UOL-A3-vah" firstAttribute="leading" secondItem="woX-0P-6yB" secondAttribute="leading" priority="999" constant="8" id="zN8-uG-ZHg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="woX-0P-6yB" secondAttribute="trailing" id="BrJ-so-VtO"/>
+                            <constraint firstItem="woX-0P-6yB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ne0-n9-ozD"/>
+                            <constraint firstItem="woX-0P-6yB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qO5-JB-T5s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bt1" destination="UOL-A3-vah" id="i9k-nO-XOr"/>
+                        <outlet property="bt2" destination="oIf-Ly-0M9" id="cgS-Yf-P1N"/>
+                        <outlet property="container" destination="woX-0P-6yB" id="f5e-7K-Iwn"/>
+                        <outletCollection property="lcHorizontal" destination="bd3-bS-q4T" collectionClass="NSMutableArray" id="ws4-Fw-J4H"/>
+                        <outletCollection property="lcVertical" destination="G5z-NU-jep" collectionClass="NSMutableArray" id="7xl-vm-Lsc"/>
+                        <outletCollection property="lcVertical" destination="QLg-fF-6tg" collectionClass="NSMutableArray" id="li4-Bj-UxY"/>
+                        <outletCollection property="lcVertical" destination="itX-ea-i5b" collectionClass="NSMutableArray" id="02S-0E-1ti"/>
+                        <outletCollection property="lcVertical" destination="PFD-f5-bRN" collectionClass="NSMutableArray" id="gsE-Li-oTf"/>
+                        <outletCollection property="lcHorizontal" destination="zN8-uG-ZHg" collectionClass="NSMutableArray" id="1me-pP-JLM"/>
+                        <outletCollection property="lcHorizontal" destination="z3j-Ow-13k" collectionClass="NSMutableArray" id="nGX-sm-p6m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
